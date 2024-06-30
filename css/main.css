@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Manrope";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-display: swap;
+
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v15-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v15-latin-600.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.container {
+  width: 1225px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* site header styels start */
+.cite-header {
+  height: 100vh;
+  padding: 50px 0 100px;
+  text-align: center;
+  background-image: url(../images/cyber-bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.site-logo-link {
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.header-title {
+  margin-bottom: 70vh;
+}
+.header-order-link {
+  display: inline-block;
+  width: 221px;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 0;
+  color: white;
+  transition: 0.5s;
+}
+.header-order-link:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px 4px rgb(162, 167, 240);
+  background: linear-gradient(
+    135deg,
+    rgb(162, 167, 240) 0%,
+    rgb(105, 110, 221) 100%
+  );
+}
+.header-order-link:active {
+  transform: scale(1.3);
+  box-shadow: 0 0 20px 4px rgb(162, 167, 240);
+  background: linear-gradient(
+    135deg,
+    rgb(162, 167, 240) 0%,
+    rgb(105, 110, 221) 100%
+  );
+}
+/* hero section styles */
+.hero-section {
+  margin-top: 200px;
+}
+.hero-main-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero-secondary-div {
+  margin-top: 100px;
+}
+.hero-title {
+  width: 205px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.title-width {
+  width: 528px;
+}
+.hero-text {
+  width: 528px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* versatile section styles */
+.versatile-section {
+  margin-top: 200px;
+}
+
+.versatile-title {
+  width: 266px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.versatile-text {
+  width: 972px;
+  margin-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* Storage section styles */
+.storage {
+  margin-top: 80px;
+}
+.storage-title {
+  width: 302px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.storage-text {
+  width: 972px;
+  margin-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* perfomance section styles */
+.perfomance-section {
+  margin-top: 200px;
+}
+.perfomance-title {
+  width: 454px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: -1px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.perfomance-text {
+  width: 972px;
+  margin-bottom: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* footer styles */
+.site-footer {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.footer-logo {
+  transition: 0.5s;
+}
+.footer-logo:hover {
+  transform: scale(1.1);
+}
